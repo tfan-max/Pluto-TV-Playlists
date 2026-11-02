@@ -1,6 +1,6 @@
 name: Auto Pluto Update
 
-on:
+"on":
 push:
   schedule:
     - cron: '7 * * * *'
