@@ -1,6 +1,7 @@
 name: Auto Pluto Update
 
 on:
+push:
   schedule:
     - cron: '7 * * * *'
   workflow_dispatch:
